@@ -4,12 +4,13 @@ import { BsFillLightningFill } from "react-icons/bs";
 import image4 from "./image 8.png";
 import image2 from "./image 1.png";
 import image3 from "./image 2.png";
+import image1 from "./aaa.png";
 
 function Content2() {
   return (
     <React.Fragment>
       <div className="bg">
-        <div className="content-con">
+        <section className="content-con">
           <div className="content-l">
             <div className="text-con">
               <p className="t1">E-COURSE PLATFORM</p>
@@ -32,9 +33,9 @@ function Content2() {
             </div>
           </div>
           <div className="content-r">
-            <img src="https://i.pinimg.com/550x/fb/de/08/fbde08398de3fff3d2f3bbb0418543d8.jpg" />
+            <img src={image1} />
           </div>
-        </div>
+        </section>
       </div>
 
       <div className="bg2">
